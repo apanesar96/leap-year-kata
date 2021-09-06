@@ -10,4 +10,9 @@ public class LeapYearApplication {
 		SpringApplication.run(LeapYearApplication.class, args);
 	}
 
+	public boolean isLeapYear(int year) {
+		if(year % 4 == 0) return true;
+
+		return false;
+	}
 }
